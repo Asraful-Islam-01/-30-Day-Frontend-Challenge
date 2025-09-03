@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(45deg, #ff6b6b, #4ecdc4);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ /* STEP 1: Basic Card */
+
+ .step1 {
+    width: 300px;
+    padding: 30px;
+    background: white;
+    text-align: center;
+ }
+
+.step1 h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.step1 p {
+    color: #666;
+    margin: 0;
+}
+
+/* STEP 2: Add Transparency */
+.step2 {
+    
+}
