@@ -1,0 +1,139 @@
+ body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 40px 20px;
+     background: #f5f5f5;
+ }
+
+ .container {
+     max-width: 900px;
+     margin: 0 auto;
+ }
+
+ /* Header */
+ h1 {
+     text-align: center;
+     color: #333;
+     margin-bottom: 40px;
+     font-size: 32px;
+ }
+
+ /* Pricing Grid */
+ .pricing-table {
+     display: flex;
+     gap: 20px;
+ }
+
+ /* Plan Cards */
+ .plan {
+     flex: 1;
+     background: white;
+     padding: 30px 20px;
+     border-radius: 8px;
+     text-align: center;
+     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+     transition: transform 0.3s ease;
+ }
+
+ .plan:hover {
+     transform: translateY(-5px);
+ }
+
+ /* Featured Plan */
+ .plan.featured {
+     background: #007bff;
+     color: white;
+     transform: scale(1.05);
+ }
+
+ .plan.featured:hover {
+     transform: scale(1.05) translateY(-5px);
+ }
+
+ /* Plan Title */
+ .plan h2 {
+     margin: 0 0 10px 0;
+     font-size: 24px;
+     font-weight: 600;
+ }
+
+ /* Pricing */
+ .price {
+     font-size: 36px;
+     font-weight: bold;
+     margin: 20px 0;
+     color: #333;
+ }
+
+ .featured .price {
+     color: white;
+ }
+
+ .price small {
+     font-size: 16px;
+     color: #666;
+ }
+
+ .featured .price small {
+     color: #ccc;
+ }
+
+ /* Features List */
+ ul {
+     list-style: none;
+     padding: 0;
+     margin: 20px 0;
+ }
+
+ li {
+     padding: 8px 0;
+     border-bottom: 1px solid #eee;
+     color: #555;
+ }
+
+ .featured li {
+     border-bottom-color: #0066cc;
+     color: white;
+ }
+
+ /* Buttons */
+ .btn {
+     background: #007bff;
+     color: white;
+     padding: 12px 24px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     font-size: 16px;
+     font-weight: 600;
+     width: 100%;
+     transition: background 0.3s ease;
+ }
+
+ .btn:hover {
+     background: #0056b3;
+ }
+
+ .featured .btn {
+     background: white;
+     color: #007bff;
+ }
+
+ .featured .btn:hover {
+     background: #f8f9fa;
+ }
+
+ /* Mobile Responsive */
+ @media (max-width: 768px) {
+     .pricing-table {
+         flex-direction: column;
+     }
+
+     .plan.featured {
+         transform: none;
+     }
+
+     .plan.featured:hover {
+         transform: translateY(-5px);
+     }
+ }
