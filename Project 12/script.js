@@ -7,6 +7,22 @@ function updateclock() {
     let seconds = now. getSeconds();
 
     //add leading zeros
+<<<<<<< HEAD
+    hours = hours < 10; ? "0" + hours : hours;
+    minutes = minutes < 10 ? "0" + minutes : minutes;
+    seconds = seconds < 10 ? "0" + seconds : seconds;
+
+    // Format time string with blinking clones
+    const timeString = `${hours}<span class= "colon">:</span>${minutes}<span class="colon">:</span>${seconds}`;
+
+    //Update time display
+    document.getElementById("time").innerHTML = timeString;
+    // get date components
+    const days = []
+        
+}
+
+=======
 
     hours = hours < 10 ? "0" + hours:hours;
     minutes = minutes < 10 ? "0" + minutes:minutes;
@@ -58,3 +74,4 @@ updateclock();
 
 //Update the clock every second
 setInterval(updateclock, 1000);
+>>>>>>> b738232212fb9520adefa2942071f8f6c9bf4180

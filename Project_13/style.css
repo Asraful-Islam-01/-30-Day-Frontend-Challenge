@@ -36,7 +36,11 @@ body {
     height: 100%;
     object-fit: cover;
     display: none;
+<<<<<<< HEAD
     animation: fadIn 0.5s ease-in-out;
+=======
+    animation: fadeIn 0.5s ease-in-out;
+>>>>>>> ccc10c4453babc6c8f5f87f66ac57388f3687b5d
 }
 
 .carousel-image.active {
@@ -44,6 +48,7 @@ body {
 }
 
 @keyframes fadeIn {
+<<<<<<< HEAD
     form {
         opacity: 0;
     }
@@ -130,4 +135,12 @@ body {
 .image-counter {
     font-size: 14px;
     color: #666;
+=======
+    from {
+        opacity: 0;
+    }
+    to {
+        
+    }
+>>>>>>> ccc10c4453babc6c8f5f87f66ac57388f3687b5d
 }
