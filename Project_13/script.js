@@ -48,12 +48,12 @@ function goToSlide(index) {
 }
 
 //Keyboard support (Left/Right arrows)
-document.addEventListener("keydown", function(e)) {
-  if(e.key === "ArrowLeft") {
-    changeSlide(-1)
-  } else if(e.key === "ArrowRight") {
-    changeSlide(1)
+document.addEventListener("keydown", function(e) {
+  if (e.key === "ArrowLeft") {
+    changeSlide(-1);
+  } else if (e.key === "ArrowRight") {
+    changeSlide(1);
   }
-}
+});
 
 showSlide(0);
