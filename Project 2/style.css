@@ -1,0 +1,91 @@
+
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+    justify-content: center;
+}
+
+body {
+    padding-top: 180px ;
+    background-color: rgb(216, 211, 229);
+}
+
+.btn-1 {
+    width: 10em;
+    height: 5ex;
+    border: 0;
+    padding: 0 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    background-color: tomato;
+    background-image: linear-gradient(to top left,
+                rgb(0 0 0 / 0.2),
+                rgb(0 0 0 / 0.2) 30%,
+                transparent);
+    box-shadow:
+            inset 2px 2px 3px rgb(255 255 255 / 0.6),
+            inset -2px -2px 3px rgb(0 0 0 / 0.6);
+
+     }
+
+     .btn-1:hover {
+         background-color: red;
+     }
+
+.btn-2 {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-2:active {
+box-shadow: 2px 2px 5px #fc894d;
+}
+
+
+.btn-3 {
+    width: 10em;
+    height: 5ex;
+    border: 0;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    
+    
+}
+
+.btn-3:disabled {
+
+        background-color: #ccc;
+        color: #666;
+        cursor: not-allowed;
+    }
+
+
+
+.greetings {
+color: #468A9A;
+}
+
+h2{
+    text-align: center;
+    color: #0F0E0E;
+}
+
+p {
+color: #541212;
+}
+

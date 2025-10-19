@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(22, 119, 180);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    display: inline;
+    background-color: #333;
+    overflow: hidden;
+    
+    
+}
+
+li {
+    
+    float: left;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+
+
