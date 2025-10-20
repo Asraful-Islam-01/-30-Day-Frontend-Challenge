@@ -5,5 +5,5 @@ function changeColor() {
     const b = Math.floor(Math.random() * 256);
 
     // Create RGB color string
-    const color = "rgb(" + r + ", " +
+    const color = "rgb"
 }
