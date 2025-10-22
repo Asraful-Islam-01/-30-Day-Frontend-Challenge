@@ -11,5 +11,14 @@ function changeColor() {
 
    //Convert RGB to HEX for display
    const hex = "#" + toHex(r) + tohex(g) + toHex(b);
-   
+   document.getElementById("colorCode").textContent = hex;
 }
+
+//Helper function convert number to hex
+function toHex(num) {
+    const hex = num.toString(16);
+    return hex.length === 1 ? "0" + hex :hex;
+}
+
+//Set initial random color when page loads
+changeColor();
