@@ -5,5 +5,11 @@ function changeColor() {
     const b = Math.floor(Math.random() * 256);
 
     // Create RGB color string
-    const color = "rgb"
+    const color = "rgb(" + r +", " + g ", " + b ")";
+   // Change the background color
+   document.body.style.backgroundColor = color;
+
+   //Convert RGB to HEX for display
+   const hex = "#" + toHex(r) + tohex(g) + toHex(b);
+   
 }
